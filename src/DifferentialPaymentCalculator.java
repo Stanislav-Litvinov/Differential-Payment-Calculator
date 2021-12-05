@@ -3,7 +3,6 @@ public class DifferentialPaymentCalculator {
 
         double monthsOfTheYear = 12;
         yearPercent = yearPercent / 100;
-       // double debit = credit - (credit / creditMonths);
 
         double differentialPayment = credit / creditMonths + credit * (yearPercent / monthsOfTheYear);
 
